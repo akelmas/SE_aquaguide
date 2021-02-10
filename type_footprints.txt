@@ -1,0 +1,36 @@
+Plant:abstract class
+	uid:string
+	type:string
+	name:string
+	location:LocationData
+	terfiIds:List<String>
+	kuyuIds:List<String>
+	depoIds:List<String>
+	imageIds:List<String>
+	parameterList:List<Parameter>
+	additionalInfo:string
+	hasDriver:bool
+	___________________________________________
+	toJson():Map<String,dynamic>
+	Plant.fromJson(Map<String,dynamic>):Plant
+	addDepoById(string):int
+	addKuyuById(string):int
+	addTerfiById(string):int
+	addImageById(string):int
+	removeDepoById(string):int
+	removeKuyuById(string):int
+	removeTerfiById(string):int
+===================================================
+Parameter:class
+	TEXT:static const int
+	DECIMAL:static const int
+	LIST:static const int
+	name:string
+	type:int
+	value:string
+	valueOptions:List<String>
+	unit:String
+	unitOptions:List<String>	
+	additionalInfo:string
+===================================================
+

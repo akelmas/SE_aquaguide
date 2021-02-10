@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1072741551100",
+    "firebase_url": "https://predixinote.firebaseio.com",
+    "project_id": "predixinote",
+    "storage_bucket": "predixinote.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072741551100:android:28a55d38743c5599410079",
+        "android_client_info": {
+          "package_name": "com.solidelectron.predixinote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072741551100-othn3hi5m60qf69ab15iis6l0hhb5l12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd2vUKIoKROLoIAkPtLaO1GMXEcFFx9J4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072741551100-othn3hi5m60qf69ab15iis6l0hhb5l12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
