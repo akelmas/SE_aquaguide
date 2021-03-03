@@ -15,7 +15,7 @@
         android:label="Aquaguide"
         android:icon="@mipmap/ic_launcher">
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBd2vUKIoKROLoIAkPtLaO1GMXEcFFx9J4"/>
+            android:value="GOOGLE_MAPS_API_KEY"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
